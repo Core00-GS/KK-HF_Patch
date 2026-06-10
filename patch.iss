@@ -16,7 +16,7 @@
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
-#define LITE
+;#define LITE
 ;--------------------------------------------------------Configuration
 ; The main executable name without the .exe
 #define GameName "Koikatu"
@@ -477,6 +477,8 @@ begin
 end;
 
 procedure OnPrepDoCleanup(); // Remove any additional mods outside of the Bepinex folder
+var
+ResultCode : Integer;
 begin
   if (WizardIsTaskSelected('delete\Sidemods')) then
     RemoveModsExceptModpacks(ExpandConstant('{app}'), ExpandConstant('{src}'));

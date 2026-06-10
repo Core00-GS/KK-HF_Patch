@@ -1,4 +1,4 @@
-![preview](https://user-images.githubusercontent.com/39247311/94689673-74a13400-032f-11eb-8162-b83ce83f2a33.png)
+![preview](header.png)
 # HF Patch for Koikatu! and Koikatsu Party!
 An unofficial patch for [Koikatu](https://wiki.anime-sharing.com/hgames/index.php?title=Koikatu) and [Koikatsu Party](https://steamcommunity.com/app/1073440) with fan-made English translations and essential mods. It will allow you to load all character cards and scenes and give you countless content creation and gameplay improvements while still keeping the original, uncluttered feel of the game. All content is tested and fixed (or removed) as needed before each update, providing a stable platform for further modding. HF Patch can also repair many common issues, try it if you have issues.
 
