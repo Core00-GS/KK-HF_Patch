@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Koikatsu"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "4.0"
+#define VERSION "4.1"
 ;-----------------------------------------Sideloader modpack directory
 #define GameDir "L:\HFpatchmaking\KK\MODSOURCE"
 ;#define GameDir "F:\Games\KoikatsuP"
@@ -16,7 +16,7 @@
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
-;#define LITE
+#define LITE
 ;--------------------------------------------------------Configuration
 ; The main executable name without the .exe
 #define GameName "Koikatu"
@@ -72,7 +72,6 @@ Name: "custom";   Description: "{cm:customInstall}"; Flags: iscustom
 Name: "Patch";                    Description: "All free updates + game repair"; Types: full_en full extra_en extra custom bare none; Flags: fixed
 Name: "Patch\VR";                 Description: "Install/Update VR Module"; Types: full_en full extra_en extra custom
 Name: "Patch\UserData";           Description: "{cm:CompDefCards}"
-Name: "Server";                   Description: "Use worldwide server in the in-game card browser instead of Japanese-only"; Types: full_en extra_en
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Modpack";                  Description: "Sideloader Modpacks {#CurrentDate} (Add additional content to the game, needs at least BepisPlugins to work)"
 #ifndef LITE
@@ -161,7 +160,6 @@ Source: "Input\_TL\_lang ch\*";                     DestDir: "{app}"; Flags: ign
 Source: "Input\_TL\_lang eng\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Languages: en
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\Launcher_branding\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Components: IllusionLaunchers
-Source: "Input\Server\*";                           DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Components: Server
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; If BP isn't installed, exclude BP uncensors from the random selection
 Source: "Input\US_config_noBP.cfg";                 DestDir: "{app}\BepInEx\config"; DestName: "com.deathweasel.bepinex.uncensorselector.cfg"
