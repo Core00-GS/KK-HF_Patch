@@ -211,12 +211,13 @@ Name: "Feature\MoarCamz";                      Description: "MoarCamz v1.0.8 (Al
 Name: "Feature\KK_PictureInPicture";           Description: "PictureInPicture v1.0.1 (Adds small windows to the game that can display an Image or render a preview of a camera (Studio only))"; Types: full_en full extra extra_en
 Name: "Feature\KK_ShadowColorSwapper";         Description: "ShadowColorSwapper v1.2 (Swap shadow colors to a configured value at the press of a keybind)"; Types: full_en full extra extra_en
 Name: "Feature\TreeNodeOrdering";              Description: "TreeNodeOrdering v3.0.0 (Allows parenting and changing the order of TreeNodes in Studio)"; Types: full_en full extra extra_en
-Name: "Feature\TheBirdOfHermes";               Description: "The Bird of Hermes v5.5.0.0 (Timeline addon, allows loading an audio file, and get a waveform of the audio)"; Types: full_en full extra extra_en
+Name: "Feature\TheBirdOfHermes";               Description: "The Bird of Hermes v5.5.1.0 (Timeline addon, allows loading an audio file, and get a waveform of the audio)"; Types: full_en full extra extra_en
 Name: "Feature\AutoKeyframe";                  Description: "Auto Keyframe v1.3.0.0 (Automatically updates any keyframes in Timeline that you change)"; Types: full_en full extra extra_en
 Name: "Feature\Compositor_KK";                 Description: "Compositor v1.2.0 (A Blender-like node compositor)"                                   ; Types: extra extra_en
-Name: "Feature\TOHYK";                         Description: "TOHYK v1.2.2 (Blender like movement plugin)"                                          ; Types: extra extra_en
+Name: "Feature\TOHYK";                         Description: "TOHYK v2.0.1 (Blender like movement plugin)"                                          ; Types: extra extra_en
 Name: "Feature\KKSandbox_PoseBrowser";         Description: "KK Sandbox - Pose Browser v1.2.2 (Provides a feature-rich UI for using Poses in CharaStudio)"; Types: extra extra_en
 Name: "Feature\KKSandbox_AnimBrowser";         Description: "KK Sandbox - Anim Browser v1.3.0 (A Studio tool that gathers every animation into a searchable category tree with a preview grid)"; Types: extra extra_en
+Name: "Feature\BoxSelect_KK";                  Description: "Box Select v1.0 (Allows to select bones in a boundary area)"                          ; Types: extra extra_en
 ; Extras
 Name: "Feature\RSkoi_ComponentUtil_KK";        Description: "RSkoi_ComponentUtil v1.5.0 (Allows for inspection and editing of primitive types on components within a scene. KK version.)"; Types: extra extra_en
 Name: "Feature\LightShafts_KK";                Description: "LightShafts v1.0.4 (Volumetric Light Shafts for the KK/KKS studio, requires Component Util.)"; Types: extra extra_en
@@ -231,7 +232,7 @@ Name: "Feature\KK_BreastPhysicsController";    Description: "BreastPhysicsContro
 Name: "Feature\DarknessWithStrawberry";        Description: "Darkness with strawberry flavor v0.3 (Can use all personalities in the darkness event and make the event 'consensual')"; Types: extra extra_en
 Name: "Feature\KK_VideoPlate";                 Description: "VideoPlate v1.1.2 (It's like an image plate but for videos)"                          ; Types: extra extra_en
 Name: "Feature\KK_StudioOverlayManager";       Description: "Studio Overlay Manager v1.0 (Allows you to manage the overlay textures of character's skin and clothing inside Studio)"; Types: extra extra_en
-Name: "Feature\KK_ShalltyUtils";               Description: "Shallty Utils v1.3 (A utility plugin focused on enhancing Timeline to improve animator's workflows (may cause issues))"; Types: extra extra_en
+Name: "Feature\KK_ShalltyUtils";               Description: "Shallty Utils v1.3.1 (A utility plugin focused on enhancing Timeline to improve animator's workflows (may cause issues))"; Types: extra extra_en
 Name: "Feature\KK_Save_PostProcessingEffects"; Description: "Save_PostProcessingEffects v0.1 (A simple plugin to save PostProcessingEffects data in the Scene)"; Types: extra extra_en
 Name: "Feature\BetterSceneLoader_Koikatu";     Description: "BetterSceneLoader v1.1.1.1 (An alternative scene loader for Studio.)"                 ; Types: extra extra_en
 Name: "Feature\KK_SceneEffectsPresets";        Description: "Scene Effects Presets v2.1 (Allows you to manage scene effects presets inside Studio)"; Types: extra extra_en
@@ -523,6 +524,7 @@ Source: "Input\_Plugins\_out\KKSandbox.AnimBrowser\*";      DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\KKSandbox.PoseBrowser\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\KKSandbox_PoseBrowser; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\KK_PerspectiveX\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\PerspectiveX; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\TOHYK.KK\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\TOHYK; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\BoxSelect.KK\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\BoxSelect_KK; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\KK_AccUndo\*";                 DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\KK_AccUndo; Excludes: "manifest.xml"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Plugins\_out\FPSCounter\*";                 DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\FPS; Excludes: "manifest.xml"

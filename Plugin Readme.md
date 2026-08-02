@@ -183,6 +183,11 @@
 - Author(s):         DeathWeasel1337
 - More information:  https://github.com/DeathWeasel1337/KK_Plugins
 
+# Box Select v1.0
+- Short description: Allows to select bones in a boundary area
+- Author(s):         RinuNalo
+- More information:  KK discord
+
 # BreastPhysicsController v2.2
 - Short description: Enables control of DynamicBone's some parameters for breasts
 - Author(s):         DeathWeasel
@@ -983,7 +988,7 @@
 - Author(s):         RikkiBalboa
 - More information:  https://github.com/RikkiBalboa/Rikki-Koi-Plugins
 
-# Shallty Utils v1.3
+# Shallty Utils v1.3.1
 - Short description: A utility plugin focused on enhancing Timeline to improve animator's workflows (may cause issues)
 - Author(s):         Shallty
 - More information:  ???
@@ -1153,7 +1158,7 @@
 - Author(s):         IllusionMods
 - More information:  https://github.com/IllusionMods/TranslationTools
 
-# The Bird of Hermes v5.5.0.0
+# The Bird of Hermes v5.5.1.0
 - Short description: Timeline addon, allows loading an audio file, and get a waveform of the audio
 - Author(s):         Rinu Nalo
 - More information:  KK Discord/
@@ -1173,7 +1178,7 @@
 - Author(s):         Keelhauled
 - More information:  https://github.com/Keelhauled/KeelPlugins
 
-# TOHYK v1.2.2
+# TOHYK v2.0.1
 - Short description: Blender like movement plugin
 - Author(s):         rnetiks
 - More information:  https://github.com/rnetiks/TOHYK

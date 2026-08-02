@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Koikatsu"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "4.1"
+#define VERSION "4.1.1"
 ;-----------------------------------------Sideloader modpack directory
 #define GameDir "L:\HFpatchmaking\KK\MODSOURCE"
 ;#define GameDir "F:\Games\KoikatsuP"
@@ -16,7 +16,7 @@
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
-#define LITE
+;#define LITE
 ;--------------------------------------------------------Configuration
 ; The main executable name without the .exe
 #define GameName "Koikatu"
